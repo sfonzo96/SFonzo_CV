@@ -1,0 +1,100 @@
+@use "../abstracts/" as abs;
+
+main {
+
+    h1 {
+        position: relative;
+        background-color: abs.color(primary);
+        font-family: abs.$name-font;
+        font-style: italic;
+        font-size: 3.5rem;
+        color: abs.color(pwhite);
+        padding: 1rem 2rem;
+        font-weight: 300;
+
+        &::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-top: 2rem solid abs.color(primary);
+            border-left: 2rem solid transparent;
+            border-right: 2rem solid transparent;
+            position: absolute;
+            top: 10rem;
+            left: 3rem;
+        }
+    }
+
+    h2 {
+        font-family: abs.$secondaty-font;
+        color: abs.color(primary);
+        font-size: 2.1rem;
+        padding: 2.5rem 1.5rem;
+        letter-spacing: 0.1rem;
+    }
+
+    h3 {
+        background-color: abs.color(primary);
+        color: abs.color(pwhite);
+        text-align: center;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        font-family: abs.$primary-font;
+        font-weight: 600;
+        position: relative;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+
+        &.main__h3-first {
+            margin-top: 0;
+        }
+
+        &::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-top: 1rem solid abs.color(primary);
+            border-left: 1rem solid transparent;
+            border-right: 1rem solid transparent;
+            position: absolute;
+            top: 2.25rem;
+            left: 4rem;
+        }
+    }
+
+    section section {
+        display: flex;
+        flex-direction: column;
+        gap: 0.1rem;
+        padding: 0 2rem;
+
+        ul {
+            font-size: 1rem;
+            font-family: abs.$primary-font;
+            margin-bottom: 1rem;
+            margin-top: .15rem;
+            padding-left: 1.25rem;
+            
+            
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+    h4 {
+        font-family: abs.$primary-font;
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 1rem;
+        font-family: abs.$primary-font;
+        margin-bottom: 1rem;
+    }
+
+
+}

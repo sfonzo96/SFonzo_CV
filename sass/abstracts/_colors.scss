@@ -1,0 +1,9 @@
+$cv-colors: (
+    'primary': #369d9d,
+    'primary-light': lighten(#369d9d, 15%),
+    'primary-dark': darken(#369d9d, 15%),
+    'secondary': #45c6c6,
+    'bg-grey': #363636,
+    'bg-grey-light': lighten(#363636, 50%),
+    'pwhite': #ffffff,
+);

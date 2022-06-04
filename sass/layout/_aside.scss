@@ -1,0 +1,70 @@
+@use "../abstracts/" as abs;
+
+aside {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem 3rem;
+    background-color: abs.color(bg-grey);
+
+    color: abs.color(pwhite);
+    font-size: 1.2rem;
+    font-family: abs.$primary-font;
+
+    img {
+        width: 15rem;
+        border-radius: 50%;
+        margin: 2rem auto;
+    }
+
+    h3 {
+        margin: 1rem 0 0.5rem;
+
+        color: abs.color(secondary);
+        font-family: abs.$primary-font;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 1.25rem;
+    }
+
+    ul {
+        padding-left: 1.25rem;
+    }
+
+    li {
+        margin-left: 0.5rem;
+
+    }
+
+    a {
+        color: abs.color(pwhite);
+        text-decoration: none;
+    }
+    
+    .aside__section-contact {
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                margin-bottom: 0.2rem;
+                
+                a {
+                    display: flex;
+                    align-items: center;
+                    
+                    i {
+                        display: absolute;
+                        font-size: 2.5rem;
+                        margin: 0.2rem 0;
+                    }
+                    p {
+                        width: 100%;
+                        text-indent: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
