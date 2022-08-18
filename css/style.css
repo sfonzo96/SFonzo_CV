@@ -1,6 +1,7 @@
 aside {
   display: flex;
   flex-direction: column;
+  gap: 3rem;
   padding: 2rem 3rem;
   background-color: #363636;
   color: #ffffff;
@@ -43,7 +44,7 @@ aside .aside__section-contact ul li a {
 }
 aside .aside__section-contact ul li a i {
   display: absolute;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   margin: 0.2rem 0;
 }
 aside .aside__section-contact ul li a p {
@@ -75,7 +76,7 @@ main h1::after {
 main h2 {
   font-family: "Playfair Display", serif;
   color: #369d9d;
-  font-size: 2.1rem;
+  font-size: 2.2rem;
   padding: 2.5rem 1.5rem;
   letter-spacing: 0.1rem;
 }
