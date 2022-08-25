@@ -160,12 +160,11 @@ div {
   display: grid;
   grid-template-columns: 0.45fr 0.55fr;
   gap: 3rem;
-  width: 50%;
+  width: 60%;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   margin: 5rem auto;
-  padding: 2rem;
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }/*# sourceMappingURL=style.css.map */
